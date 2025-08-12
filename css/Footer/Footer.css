@@ -1,0 +1,113 @@
+.Footer{
+    border-top: 1px solid #EBEBEB;
+    margin-top: 30px;
+padding: 25px;
+font-family: poppins;
+
+}
+.Footer ul li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: poppins;
+    color: #000000;
+    margin-bottom: 25px;
+
+
+}
+
+.Footer ul .funiro {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 100%;
+    font-family: poppins;
+    margin-bottom: 30px;
+}
+
+.Gray{
+    color: #9F9F9F;
+}
+.Gray_p{
+        color: #9F9F9F;
+        font-size: 14px;
+        font-weight: 400;
+
+}
+
+.Footer .Links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 20px;
+}
+
+
+
+/*footer input*/
+.subscribe_input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.subscribe_input button{
+border: none;
+  border-bottom: 1px solid #000000; 
+  outline: none; 
+  padding: 8px 4px;
+  font-size: 16px;
+  background: transparent;
+  margin: 0;
+  color: #000000;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: poppins;
+
+
+
+}
+
+.underline-input {
+  border: none;
+  border-bottom: 1px solid #000000; 
+  outline: none; 
+  padding: 8px 4px;
+  font-size: 16px;
+  background: transparent;
+  font-weight: 400;
+  font-size: 13px;
+  color: #9F9F9F;
+      font-family: poppins;
+
+}
+
+.underline-input:focus {
+  border-bottom-color: rgb(151, 6, 6); 
+  transition: border-color 0.3s ease;
+}
+
+hr{
+    border: 1px solid #D9D9D9;
+}
+.copyright{
+    padding: 20px 2px;
+
+}
+.copyright p{
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+/*responsive*/
+@media (max-width: 480px) {
+    .copyright p{
+        text-align: center;
+    }
+
+
+}

@@ -1,0 +1,154 @@
+.SwiperRoom{
+    padding: 30px;
+    background-color: #FCF8F3;
+
+}
+
+.Room_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.Rooms_content{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.Rooms_content h2 {
+    color: #3A3A3A;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 100%;
+    font-family: poppins;
+}
+
+.Rooms_content p {
+    color: #616161;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+
+.Rooms_content .Explore_More {
+        background-color: #B88E2F;
+    color: #FFFFFF;
+    padding: 10px 25px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: poppins;
+    cursor: pointer;
+}
+
+
+.Rooms_content .Explore_More:hover {
+          background-color: #FFFFFF;
+          border: 1px solid #B88E2F;
+
+        color: #B88E2F;
+
+
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+
+/* .swiper_room */
+
+.custom-swiper {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.custom-swiper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  
+}
+.swiper-slide-active img {
+  transform: scale(1.1); 
+}
+
+
+.swiper-slide img {
+  height: 500px; 
+  opacity: 0.6;
+  margin: 5px;
+}
+
+/*  active photo  */
+.swiper-slide-active img {
+  height: 600px; 
+  opacity: 1;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+💡 
+
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: rgb(41, 35, 35); 
+  color: #B88E2F !important;
+  font-size: 20px !important;
+
+}
+.swiper-button-next {
+  color: #B88E2F !important;
+  background-color: #FFFFFF !important ;
+    width: 35px !important;
+    height: 35px !important;
+    font-size: 16px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important; 
+    border-radius: 50% !important;
+
+}
+.swiper-button-next::after {
+  font-size:16px !important;
+}
+
+
+  
+.swiper-button-prev::after {
+  display: none !important;
+}
+.swiper-pagination{
+    left: 8% !important;
+    bottom: 6% !important;
+
+
+}
+
+
+.swiper-pagination-bullet {
+  background-color: #B88E2F; 
+  padding: 5px;
+
+  
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #B88E2F !important; 
+  border: 1px solid #B88E2F !important;
+width: 15px !important;
+height: 15px !important;
+}
+
+
+
+/* responsive design for swiper  */
+
+
+
+
