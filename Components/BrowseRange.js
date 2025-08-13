@@ -11,44 +11,51 @@ const BrowseRange = () => {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
 
-        <div className="Content_Range">
-          <div className="Card">
-            <Image
-              src="/images/dining.png"
-              alt="dining"
-              width={380}
-              height={480}
-              style={{ objectFit: "cover" }}
-              quality={100}
-            />
+        <div className="Content_Range ">
+          <div className="row">
+            
+            <div className="col-12 col-md-6 col-lg-4">
+              <div className="Card">
+                <Image
+                  src="/images/dining.png"
+                  alt="dining"
+                  width={380}
+                  height={480}
+                  style={{ objectFit: "cover" }}
+                  quality={100}
+                />
 
-            <p>Dining</p>
-          </div>
+                <p>Dining</p>
+              </div>
+            </div>
+            <div className="col-12 col-md-6 col-lg-4">
+              <div className="Card">
+                <Image
+                  src="/images/living.png"
+                  alt="living"
+                  width={380}
+                  height={480}
+                  style={{ objectFit: "cover" }}
+                  quality={100}
+                />
 
-          <div className="Card">
-            <Image
-              src="/images/living.png"
-              alt="living"
-              width={380}
-              height={480}
-              style={{ objectFit: "cover" }}
-              quality={100}
-            />
+                <p>Living</p>
+              </div>
+            </div>
+            <div className="col-12 col-md-6 col-lg-4">
+              <div className="Card">
+                <Image
+                  src="/images/bedroom.png"
+                  alt="dining"
+                  width={380}
+                  height={480}
+                  style={{ objectFit: "cover" }}
+                  quality={100}
+                />
 
-            <p>Living</p>
-          </div>
-
-          <div className="Card">
-            <Image
-              src="/images/bedroom.png"
-              alt="dining"
-              width={380}
-              height={480}
-              style={{ objectFit: "cover" }}
-              quality={100}
-            />
-
-            <p>bedroom</p>
+                <p>bedroom</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
