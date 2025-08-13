@@ -39,9 +39,10 @@ font-family: poppins;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 15px;
     padding: 20px;
 }
+
 
 
 
@@ -51,6 +52,7 @@ font-family: poppins;
     align-items: center;
     justify-content: center;
     gap: 5px;
+    flex-wrap: wrap;
 }
 .subscribe_input button{
 border: none;
@@ -108,6 +110,13 @@ hr{
     .copyright p{
         text-align: center;
     }
+
+    .Footer .Links ul{
+        padding: 0;
+        margin: 0;
+
+}
+
 
 
 }
