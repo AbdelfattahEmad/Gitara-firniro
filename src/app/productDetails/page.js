@@ -7,6 +7,9 @@ import ProductSwiper from "../../../Components/ProductSwiper";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
+import AddetionalInformation from "../../../Components/AddetionalInformation";
+import Image from "next/image";
+import OurProducts from "../../../Components/OurProducts";
 
 const ProductDetails = () => {
   // sizes cheack Button
@@ -32,6 +35,7 @@ const ProductDetails = () => {
         <p>|</p>
         <h3>Asgaard sofa</h3>
       </div>
+
       <div className="Products">
         <div className="container">
           <div className="row">
@@ -133,6 +137,7 @@ const ProductDetails = () => {
 
                   <button className="add-to-cart">+ Compare</button>
                 </div>
+
                 <div className="info">
                   <div className="info_item">
                     <p>SKU</p>
@@ -161,6 +166,45 @@ const ProductDetails = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* additional information */}
+      <div className="container">
+        <div className="additional">
+          <AddetionalInformation />
+        </div>
+      </div>
+
+      {/* images */}
+
+      <div className="container">
+        <div className="images">
+          <div className="row">
+            <div className="col-12 col-lg-6">
+              <Image
+                src="/images/k2.png"
+                alt="Setup 1"
+                width={605}
+                height={348}
+                style={{ objectFit: "cover" }}
+                quality={100}
+              />
+            </div>
+            <div className="col-12 col-md-12 col-lg-6">
+              <Image
+                src="/images/k1.png"
+                alt="Setup 1"
+                width={605}
+                height={348}
+                style={{ objectFit: "cover" }}
+                quality={100}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="">
+        <OurProducts />
       </div>
     </section>
   );

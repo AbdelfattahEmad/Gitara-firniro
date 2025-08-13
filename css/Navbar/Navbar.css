@@ -22,6 +22,8 @@
   list-style: none;
   display: flex;
   gap: 20px;
+  padding: 0;
+  margin: 0;
 }
 
 .nav-links li {
@@ -33,9 +35,23 @@
 .nav-links a {
   color: #000000;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 15px;
+  transition: all 0.3s ease-in-out;
+  
+
 }
+
+.nav-links a:hover {
+  color: #B88E2F;
+  border-bottom:2px solid #B88E2F;
+}
+
+
+
+
+
+
 
 
 /*Icons_nav*/
@@ -43,7 +59,9 @@
   list-style: none;
   display: flex;
   gap: 12px;
-  align-items: center
+  align-items: center;
+  margin: 0;
+  padding: 0;
 
 }
 .Icons_nav .icon {
@@ -73,6 +91,14 @@
     flex-direction: column;
     padding: 10px 20px;
     gap: 10px;
-    background-color: #eee;
+    background-color: #FAF3EA;
+
+    width: 100%;
+    position: relative;
+    z-index: 1111;
   }
+    .mobile-menu li a {
+      color: #B88E2F;
+    }
+
 }

@@ -9,6 +9,7 @@ import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
 import "../css/ProductSwiper/ProductSwiper.css";
+import Image from "next/image";
 
 // import required modules
 import { FreeMode, Navigation, Thumbs } from "swiper/modules";
@@ -28,16 +29,47 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          <Image
+            src="/images/s1.png"
+            alt="Setup 1"
+            width={605}
+            height={348}
+            style={{ objectFit: "cover" }}
+            quality={100}
+          />
         </SwiperSlide>
+
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          <Image
+            src="/images/s2.png"
+            alt="Setup 1"
+            width={605}
+            height={348}
+            style={{ objectFit: "cover" }}
+            quality={100}
+          />
         </SwiperSlide>
+
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          <Image
+            src="/images/s3.png"
+            alt="Setup 1"
+            width={605}
+            height={348}
+            style={{ objectFit: "cover" }}
+            quality={100}
+          />
         </SwiperSlide>
+
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+          <Image
+            src="/images/s4.png"
+            alt="Setup 1"
+            width={605}
+            height={348}
+            style={{ objectFit: "cover" }}
+            quality={100}
+          />
         </SwiperSlide>
       </Swiper>
 
@@ -53,19 +85,58 @@ export default function App() {
         className="mySwiper2"
       >
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          <Image
+            src="/images/s1.png"
+            alt="Setup 1"
+            width={605}
+            height={348}
+            style={{ objectFit: "cover" }}
+            quality={100}
+          />
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          <Image
+            src="/images/s2.png"
+            alt="Setup 1"
+            width={605}
+            height={348}
+            style={{ objectFit: "cover" }}
+            quality={100}
+          />
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          <Image
+            src="/images/s3.png"
+            alt="Setup 1"
+            width={605}
+            height={348}
+            style={{ objectFit: "cover" }}
+            quality={100}
+          />
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+          <Image
+            src="/images/s4.png"
+            alt="Setup 1"
+            width={605}
+            height={348}
+            style={{ objectFit: "cover" }}
+            quality={100}
+          />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Image
+            src="/images/s5.png"
+            alt="Setup 1"
+            width={605}
+            height={348}
+            style={{ objectFit: "cover" }}
+            quality={100}
+          />
         </SwiperSlide>
       </Swiper>
     </div>

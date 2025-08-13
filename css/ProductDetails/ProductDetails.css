@@ -29,7 +29,7 @@ p{
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
-    margin-top: 8px;
+    margin-top: 12px;
 }
 .Product_content .title h2{
     font-size: 28px;
@@ -211,6 +211,74 @@ p{
     display: flex;
     align-items: center;
     gap: 12px;
-
-
  }
+
+
+ /*//////
+ //////////////////////
+ /////////////////////
+ ///////////////////
+ */
+/* additional information */
+.additional{
+  border-top: 1px solid #9F9F9F;
+  padding-top: 25px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap:25px ;
+  }
+   .additional .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 12px;
+    display: flex;
+    gap: 18px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: poppins;
+    cursor: pointer;
+    border: none;
+   }
+
+   .nav-link{
+    color: #9F9F9F;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: poppins;
+    cursor: pointer;
+    border: none;
+   }
+
+   .tab-pane{
+    color: #9F9F9F;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: poppins;
+    cursor: pointer;
+    border: none;
+   }
+
+   /*
+   ///////////////
+   /////////////
+   /////////////////*/
+   .images{
+    text-align: center;
+    margin-top: 30px;
+
+   }
+   .images img{
+    margin: 12px;
+   }
+
+   @media screen and (max-width: 767px) {
+    .images img{
+            width: auto;
+    height: auto;
+
+    }
+  }
